@@ -8,5 +8,6 @@ services:
         - ./data/sites-available:/etc/nginx/sites-available
         - ./data/sites-enabled:/etc/nginx/sites-enabled
         - ./data/ssl/aura.ren:/etc/ssl/aura.ren
+        - ./data/functool:/data/functool
       restart: unless-stopped
       network_mode: host
