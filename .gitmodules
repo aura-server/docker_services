@@ -1,0 +1,3 @@
+[submodule "nginx/functool"]
+	path = nginx/functool
+	url = https://github.com/auroraka/tencent-functool.git
